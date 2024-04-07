@@ -4,6 +4,7 @@ WITH source_products AS (
 	FROM {{ source('thelook_ecommerce', 'products') }}
 )
 
+
 SELECT
 	-- IDs
 	id AS product_id,
