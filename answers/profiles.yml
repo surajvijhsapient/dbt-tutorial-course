@@ -10,7 +10,7 @@ answers: # this needs to match the profile: in your dbt_project.yml file
       schema: dbt_test # Replace this with dbt_your_name, e.g. dbt_bob
       threads: 64 # Max number of concurrent things running at once
       timeout_seconds: 300
-      location: US
+      location: us-central1
       priority: interactive # BigQuery can use "batch" or "interactive". https://cloud.google.com/bigquery/docs/running-queries
 
     # You won't use this, but an example of using a different target
@@ -21,5 +21,5 @@ answers: # this needs to match the profile: in your dbt_project.yml file
       schema: dbt_production
       threads: 64
       timeout_seconds: 300
-      location: US
+      location: us-central1
       priority: interactive

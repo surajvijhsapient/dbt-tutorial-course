@@ -58,7 +58,7 @@ models:
                 - Processing
                 - Cancelled
                 - Shipped
-                - Complete
+                # - Complete
                 - Returned
 
       - name: num_items_ordered

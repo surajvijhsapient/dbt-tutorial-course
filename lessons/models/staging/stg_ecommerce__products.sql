@@ -1,4 +1,4 @@
-WITH source_products AS (
+WITH source AS (
 	SELECT *
 
 	FROM {{ source('thelook_ecommerce', 'products') }}
@@ -22,4 +22,4 @@ SELECT
 		- name
 	#}
 
-FROM source_products
+FROM source
